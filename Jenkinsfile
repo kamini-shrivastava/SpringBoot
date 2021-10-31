@@ -24,7 +24,7 @@
 // }
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/kamini-shrivastava/springmvc'
+    git 'https://github.com/kamini-shrivastava/SpringBoot'
   }
   stage('Compile-Package'){
     // Get maven home path
